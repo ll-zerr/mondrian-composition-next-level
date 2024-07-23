@@ -6,7 +6,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mondrian Composition 2</title>
     <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
 
+        .grid-container {
+            width: 610px;
+            height: 610px;
+            background-color: black;
+            display: grid;
+            grid-template-columns: 60px 75px 75px 150px 80px 85px 25px;
+            grid-template-rows: 50px 150px 150px 70px 70px 25px;
+            grid-auto-rows: 35px;
+            gap: 10px;
+        }
+
+        .grey1, .grey2, .grey3, .grey4, .grey5 {
+            background-color: rgb(218, 215, 215);
+        }
+
+        .white1, .white2, .white3, .white4, .white5, .white6, .white7 {
+            background-color: rgb(253, 242, 242);
+        }
+
+        .yellow1, .yellow2, .yellow3 {
+            background-color: rgb(240, 208, 83);
+        }
+
+        .red1, .red2 {
+            background-color: red;
+        }
+
+        .black1, .black2 {
+            background-color: black;
+        }
+
+        .blue {
+            background-color: rgb(11, 11, 113);
+        }
+
+        .grey1 {
+            grid-column: span 2;
+        }
+
+        .white1 {
+            grid-column: span 2;
+        }
+
+        .yellow1 {
+            grid-column: span 2;
+        }
+
+        .grey2 {
+            grid-row: span 4;
+        }
+
+        .red1 {
+            grid-column: span 3;
+            grid-row: span 2;
+        }
+
+        .yellow2 {
+            grid-column: span 2;
+        }
+
+        .grey3 {
+            grid-row: span 2;
+        }
+
+        .black1 {
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+
+        .white5 {
+            grid-column: span 2;
+        }
+
+        .yellow3 {
+            grid-row: span 3;
+        }
+
+        .blue {
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+
+        .red2 {
+            grid-row: span 3;
+        }
+
+        .white6 {
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+
+        .white7 {
+            grid-column: span 3;
+        }
     </style>
 </head>
 
