@@ -8,7 +8,7 @@ The goal of the project is to create a Mondrian style composition of increased d
 
 ### View My Project: 
 
-![Screenshot]()
+![Screenshot](img/mcnl-mockup.png)
 
 ## Features
 
